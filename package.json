@@ -4,14 +4,15 @@
     "description": "",
     "main": "server.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node server.js",
-      "seed": "node utils/seed.js"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server",
+        "seed": "node utils/seed.js"
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
-      "express": "^4.17.1",
-      "mongodb": "^5.1.0"
+        "express": "^4.17.1",
+        "mongodb": "^5.1.0",
+        "mongoose": "^7.6.5"
     }
-  }
+}
