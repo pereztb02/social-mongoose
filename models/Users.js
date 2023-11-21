@@ -1,6 +1,7 @@
 // Imports Mongoose library
 const mongoose = require('mongoose');
 
+//schema for what makes up a user
 const userSchema = new mongoose.Schema({
     username: { type: String, required: true },
     email: { type: String, 
